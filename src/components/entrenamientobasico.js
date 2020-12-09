@@ -118,7 +118,7 @@ const entrenamientobasico = (props) => {
         </a>
       </div>
       <div className="btn-cont">
-        <button className="btn btn-danger" onClick={() => history.push("Perfilperro")} >Finalizar</button>
+        <button className="btn btn-danger" onClick={() => history.push("insigniabasico")} >Finalizar</button>
       </div> 
     </div>
   );

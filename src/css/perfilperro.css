@@ -18,7 +18,8 @@ h1 {
 }
 .pp{
   margin-top: 80px;
-  margin-left: 270px;
+  margin-left: 90px;
+  text-align: center;
 }
 
 .card {
@@ -31,10 +32,13 @@ h1 {
 }
 
 .btn-sig {
+  height: 80px;
+width: 180px;
   color: #000;
   background: purple; 
   border-radius: 5px;
   margin: auto;
   display: center;
-  
+  text-align: center;
+ transform: translate(-25%,-40%); 
 }

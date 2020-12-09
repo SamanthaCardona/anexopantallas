@@ -3,6 +3,7 @@ import { withRouter } from "react-router-dom";
 import "../css/entrenamiento.css";
 
 const entrenamientobasico = (props) => {
+  const { history } = props;
   return (
     <div className="container-ent">
       <div className="title-ent">
@@ -116,7 +117,7 @@ const entrenamientobasico = (props) => {
         </a>
       </div>
       <div className="btn-cont">
-        <button className="btn btn-danger">continuar</button>
+        <button className="btn btn-danger" onClick={() => history.push("insigniabasico")}>Finalizar</button>
       </div>
     </div>
   );

@@ -5,14 +5,24 @@ import "../css/comenzar.css";
 const Comenzar = (props) => {
   const { history } = props;
   return (
-    <div class="container">
-    <div class="title">
+    <div className="container-comenzar bg">
+      <div className="title">
         <h1>¿Comenzamos?</h1>
-      </div> 
-     <div class="buttons">
-        <button className="btn"  onClick={() => history.push("entrenamientobasico")}>Entrenamiento basico</button>
-      
-        <button className="btnn">Entrenamiento avanzado</button>
+      </div>
+      <div className="buttons-comenzar">
+        <button
+          className="btnn"
+          onClick={() => history.push("entrenamientobasico")}
+        >
+          Entrenamiento básico
+        </button>
+
+        <button
+          className="btnn"
+          onClick={() => history.push("entrenamientoavanzado")}
+        >
+          Entrenamiento avanzado
+        </button>
       </div>
     </div>
   );

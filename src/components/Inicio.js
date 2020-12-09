@@ -1,47 +1,34 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import "../css/inicio.css";
 
 const Inicio = () => {
   return (
     <div>
       <main role="main">
-        <div className="jumbotron">
-          <div className="container">
-            <img className="Logo" src="img/logo.png" alt="Logo" />
-            <p>
-              En este video vamos aprender más de nuestra aplicación y de su
-              uso.
-            </p>
-            <p>
-            <center> <Link
-                className="btn"
-                to="/Sesion"
-                role="button"
-              >
+        <div className="container-inicio bg">
+          <body>
+          <center> <video src="video/puppylove.mp4.mp4" controls width="400px" height="400px"></video> </center>
+        </body>
+          <p>
+            En este video vamos a aprender más de nuestra aplicación y su uso.
+          </p>
+          <p>
+            <center>
+              {" "}
+              <Link className="btn btn-primary" to="/Sesion" role="button">
                 Iniciar sesión.
-              </Link> </center>
-            </p>
-            <p>
-             <center> <Link
-                className="btn"
-                to="/Registro"
-                role="button"
->
+              </Link>{" "}
+            </center>
+          </p>
+          <p>
+            <center>
+              {" "}
+              <Link className="btn btn-secondary" to="/Registro" role="button">
                 Registrarte.
-              </Link> </center>
-            </p>
-          </div>
-        </div>
-
-        <div className="container">
-          <div className="row">
-            <div className="col-md-4"></div>
-            <div className="col-md-4">
-            </div>
-            <div className="col-md-4">
-            </div>
-          </div>
-          <hr />
+              </Link>{" "}
+            </center>
+          </p>
         </div>
       </main>
     </div>

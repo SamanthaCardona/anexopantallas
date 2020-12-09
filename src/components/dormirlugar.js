@@ -5,7 +5,7 @@ import "../css/dormirlugar.css";
 const dormirlugar = (props) => {
   const { history } = props;
   return (
-    <div>
+    <div className="bg">
       <center>
         <h1 className="Titulor">Dormir en su lugar</h1>
       </center>

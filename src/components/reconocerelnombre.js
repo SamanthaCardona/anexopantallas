@@ -5,7 +5,7 @@ import "../css/reconocerelnombre.css";
 const reconocerelnombre = (props) => {
   const { history } = props;
   return (
-    <div>
+    <div className="bg">
       <center>
         <h1 className="Titulor">Reconocer el nombre</h1>
       </center>

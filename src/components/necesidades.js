@@ -5,7 +5,7 @@ import "../css/necesidades.css";
 const necesidades = (props) => {
   const { history } = props;
   return (
-    <div>
+    <div className="bg">
       <center>
         <h3 className="Titulor">Donde hacer sus necesidades</h3>
       </center>

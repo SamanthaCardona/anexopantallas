@@ -14,7 +14,7 @@ const completonvlbasico = (props) => {
 </div>
       <button
             type="submit"
-            className="btn"
+            className="btn-sig"
             onClick={() => history.push("Perfiles")}
           >
             SIGUIENTE

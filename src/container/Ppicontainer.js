@@ -9,12 +9,8 @@ import Perfiles from "../components/Perfiles";
 import Perfilperro from "../components/Perfilperro";
 import Comenzar from "../components/Comenzar";
 import entrenamientobasico from "../components/entrenamientobasico";
-import reconocerelnombre from "../components/reconocerelnombre";
-import sentarse from "../components/sentarse";
-import necesidades from "../components/necesidades";
-import dormirlugar from "../components/dormirlugar";
-import completonvlbasico from "../components/completonvlbasico";
 import entrenamientoavanzado from "../components/entrenamientoavanzado";
+import insigniabasico from "../components/insigniabasico";
 export default function Ppiconainer() {
   return (
     
@@ -26,13 +22,9 @@ export default function Ppiconainer() {
       <Route path="/Perfiles" exact component={Perfiles} />
       <Route path="/Perfilperro" exact component={Perfilperro} />
       <Route path="/Comenzar" exact component={Comenzar} /> 
-      <Route path="/entrenamientobasico" exact component={entrenamientobasico} /> 
-      <Route path="/reconocerelnombre" exact component={reconocerelnombre} /> 
-      <Route path="/sentarse" exact component={sentarse} /> 
-      <Route path="/necesidades" exact component={necesidades} />
-      <Route path="/dormirlugar" exact component={dormirlugar} />
-      <Route path="/completonvlbasico" exact component={completonvlbasico} />
+      <Route path="/entrenamientobasico" exact component={entrenamientobasico} />  
       <Route path="/entrenamientoavanzado" exact component={entrenamientoavanzado} />
+      <Route path="/insigniabasico" exact component={insigniabasico} />
     </BrowserRouter>
   );
 }
